@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <script src="https://kit.fontawesome.com/c41636f0e6.js" crossorigin="anonymous"></script>
+    
+    <title>register page</title>
+</head>
+<body>
+    <header class="main-page">
+        <nav class="navigation-bar">
+            <div class="nav-item-container">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="mainpage.html">home</a></li>
+                    <li class="nav-item"><a href="aboutpage.html">about</a></li>
+                    <li class="nav-item"><a href="contactpage.html">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="header-message">
+            <p class="message"
+            >farmer connects you</p>
+            <p>get directly from farmers to your door step</p>
+        </section>
+        <section class="register-container">
+            <div class="register-img-container">
+                <img src="slide7.jpg" alt="farm">
+            </div>
+            <div class="register-content-container">
+                <div class="register-content-container2">
+                    <form class="signup-form">
+                    <h2 class="md-heading">register</h2>
+                    <label for="fullname">FullName</label>
+                    
+                    <input type="text" id="fullname" required>
+                    <div class="error" id="error1">error message</div>
+                    
+                    <label >Register As</label>
+                    
+                    <button class="buyer-btn" value="buyer">buyer</button>
+                    <button class="farmer-btn" value="farmer">farmer</button>
+                    
+                    <label for="phonenumber">PhoneNumber</label>
+                    
+                    <input type="number" id="phonenumber" required>
+                    <div class="error" id="error2">error message</div>
+                    
+                    <label for="password">Password</label>
+                    
+                    <input type="password" id="password" required>
+                    <div class="error" id="error3">error message</div>
+                    
+                    <label for="confirm">Confirm Password</label>
+                    
+                    <input type="text" id="confirm" required>
+                    <div class="error" id="error4">error message</div>
+                    
+                    <input type="checkbox" id="showpassword" >
+                    <label for="showpassword" class="label1">Show Password</label>
+                    <br>
+                    <input type="checkbox" id="tandc" required>
+                    <label for="t&c" class="label2"> I agree with these terms and conditions</label>
+                    
+                    <button class="register-btn" >register</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="left-footer-container">
+                    <div class="address adress">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>street-21 vizianagaram</p>
+                        <h3>andhrapradesh,india</h3>
+
+                    </div>
+                    <div class="address">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 9381702781</p>
+                    </div>
+                    <div class="address">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>farmers.comunity@gmail.com</p>
+
+                    </div>
+
+                </div>
+                <div class="right-footer-container">
+                    <div class="about-footer">
+                        <div class=" footer-about footer-about-heading">
+                            <h2>about the company</h2>
+                        </div>
+                        <div class=" footer-about footer-about-content">
+                            <p>This company works for the welfare of the farmers and consumers.
+                                We aim for quality food products accessed by the consumers near by farmers.
+                                We value farmers crop and consumers belief.
+                                This company avoids middlemen system.
+                            </p>
+                        </div>
+                        <div class=" footer-about footer-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+    </header>
+    <script src="mainpage.js"></script>
+</body>
+</html>
